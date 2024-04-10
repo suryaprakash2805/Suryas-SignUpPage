@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="profile.css" />
+
+    <script src="profile.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f001fbb14e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Profile Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="profile.php" method="post" id="profileForm">
+        <div class="form-box" id="form">
+          <h1>My Profile</h1>
+          <div class="input-group">
+            <div class="input-field" id="namefield">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" class="username" name="name" disabled />
+            </div>
+            <div class="input-field" id="namefield">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" class="email" name="email" disabled />
+            </div>
+            <div class="input-field" id="namefield">
+              <i class="fa-solid fa-lock"></i>
+              <input type="text" class="password" name="password" disabled />
+            </div>
+          </div>
+          <div id="alertBox" style="display: none"></div>
+        </div>
+      </form>
+    </div>
+    <script src="profile.js"></script>
+  </body>
+</html>
