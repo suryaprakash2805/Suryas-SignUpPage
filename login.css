@@ -12,6 +12,13 @@ body {
   background-attachment: fixed;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 #form {
   background-color: #088fae9c;
   border-radius: 5px;
@@ -20,14 +27,11 @@ body {
 .form-box {
   width: 90%;
   max-width: 450px;
-  position: absolute;
-  background-color: #3c00a0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   background: #fff;
   padding: 50px 60px 70px;
   text-align: center;
+  border-radius: 10px; /* Adjust border radius */
 }
 
 .form-box h1 {
@@ -89,17 +93,7 @@ input {
   border: 0;
   outline: 0;
   cursor: pointer;
-  /* transition: background 1s; */
 }
-
-.input-group {
-  height: 150px;
-}
-
-/* button:disabled {
-  background-color: #eaeaea; /* Set it to initial or transparent to remove the background */
-/* Additional styling if needed */
-/* } */
 
 .Login {
   font-size: 20px;
@@ -116,6 +110,45 @@ a:link {
 a:hover {
   font-weight: bold;
 }
+
+a:active {
+  color: black;
+}
+
 .btn-field button:hover {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-box {
+    padding: 40px 20px 50px; /* Adjust padding for smaller screens */
+  }
+
+  .form-box h1 {
+    font-size: 24px; /* Decrease font size for smaller screens */
+    margin-bottom: 40px; /* Adjust margin for smaller screens */
+  }
+
+  .input-field {
+    max-height: 55px; /* Adjust max-height for smaller screens */
+  }
+
+  input {
+    padding: 14px 12px; /* Adjust padding for smaller screens */
+  }
+
+  .input-field i {
+    margin-left: 10px; /* Adjust margin for smaller screens */
+    margin-right: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .btn-field button {
+    font-size: medium; /* Decrease font size for smaller screens */
+    height: 36px; /* Adjust height for smaller screens */
+    width: 120px; /* Adjust width for smaller screens */
+  }
+
+  .Login {
+    font-size: 18px; /* Decrease font size for smaller screens */
+  }
 }

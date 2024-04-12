@@ -10,8 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const username = usernameInput.value;
     const password = passwordInput.value;
 
-    // Validate username (should be all lowercase and no spaces)
-
     if (username === "" || password === "") {
       alert("Please fill out the form");
       return;
@@ -36,11 +34,5 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       alert("Please enter a valid username or password");
     }
-
-    // Validate email
-
-    // Validate password (should be at least 8 characters long)
-
-    // If all inputs are valid, redirect to login.html
   });
 });
