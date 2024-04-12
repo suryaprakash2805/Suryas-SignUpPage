@@ -15,11 +15,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const usernameRegex = /^[a-z0-9]+$/;
 
     if (username === "" || email === "" || password === "") {
-      alert("Please fill out the form");
+      alert("Please fill out the form.");
       return;
     }
     if (!usernameRegex.test(username)) {
-      alert("Please enter a valid Username.");
+      alert(
+        "Username should be in lowercase letters and include numbers with no spacing."
+      );
       return;
     }
 

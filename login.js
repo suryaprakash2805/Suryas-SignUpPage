@@ -11,13 +11,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const password = passwordInput.value;
 
     if (username === "" || password === "") {
-      alert("Please fill out the form");
+      alert("Please fill out the form.");
       return;
     }
 
     const data = localStorage.getItem("datas");
     if (!data) {
-      alert("No user data found. Please register first.");
+      alert("No user data found, Please register first.");
       return;
     }
 
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (val[0].name !== username && val[0].password !== password) {
       alert("No user data found. Please register first.");
     } else {
-      alert("Please enter a valid username or password");
+      alert("Please enter a valid username or password.");
     }
   });
 });
