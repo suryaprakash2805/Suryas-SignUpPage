@@ -158,9 +158,13 @@ a:hover {
     font-size: medium; /* Decrease font size */
     height: 36px; /* Adjust height */
     width: 120px; /* Adjust width */
+    margin-top: 15px;
   }
 
   .Login {
     font-size: 18px; /* Decrease font size */
+  }
+  .input-group {
+    margin-bottom: 0;
   }
 }
