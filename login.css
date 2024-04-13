@@ -10,7 +10,6 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
-  overflow-y: hidden;
 }
 
 .container {
@@ -121,6 +120,9 @@ a:active {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    overflow-y: hidden;
+  }
   .form-box {
     padding: 40px 20px 50px;
   }
