@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #form {
@@ -150,9 +150,5 @@ a:active {
 
   .Login {
     font-size: 18px;
-  }
-
-  .input-group {
-    margin-bottom: 0;
   }
 }
