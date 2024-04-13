@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .container {
@@ -31,7 +32,7 @@ body {
   background: #fff;
   padding: 50px 60px 70px;
   text-align: center;
-  border-radius: 10px; /* Adjust border radius */
+  border-radius: 10px;
 }
 
 .form-box h1 {
@@ -121,34 +122,34 @@ a:active {
 
 @media only screen and (max-width: 600px) {
   .form-box {
-    padding: 40px 20px 50px; /* Adjust padding for smaller screens */
+    padding: 40px 20px 50px;
   }
 
   .form-box h1 {
-    font-size: 24px; /* Decrease font size for smaller screens */
-    margin-bottom: 40px; /* Adjust margin for smaller screens */
+    font-size: 24px;
+    margin-bottom: 40px;
   }
 
   .input-field {
-    max-height: 55px; /* Adjust max-height for smaller screens */
+    max-height: 55px;
   }
 
   input {
-    padding: 14px 12px; /* Adjust padding for smaller screens */
+    padding: 14px 12px;
   }
 
   .input-field i {
-    margin-left: 10px; /* Adjust margin for smaller screens */
-    margin-right: 10px; /* Adjust margin for smaller screens */
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .btn-field button {
-    font-size: medium; /* Decrease font size for smaller screens */
-    height: 36px; /* Adjust height for smaller screens */
-    width: 120px; /* Adjust width for smaller screens */
+    font-size: medium;
+    height: 36px;
+    width: 120px;
   }
 
   .Login {
-    font-size: 18px; /* Decrease font size for smaller screens */
+    font-size: 18px;
   }
 }

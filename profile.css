@@ -96,7 +96,6 @@ button {
   width: 80%;
 }
 
-/* Responsive CSS */
 @media screen and (max-width: 600px) {
   .form-box {
     width: 70%;

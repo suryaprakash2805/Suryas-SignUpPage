@@ -112,9 +112,6 @@ a:link {
   text-decoration: none;
 }
 
-/* visited link */
-
-/* selected link */
 a:active {
   color: black;
 }
@@ -131,38 +128,38 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   .form-box {
-    width: 90%; /* Adjust width for smaller screens */
-    padding: 40px 30px 50px; /* Adjust padding */
+    width: 90%;
+    padding: 40px 30px 50px;
   }
 
   .form-box h1 {
-    font-size: 24px; /* Decrease font size */
-    margin-bottom: 40px; /* Adjust margin */
+    font-size: 24px;
+    margin-bottom: 40px;
   }
 
   .input-field {
-    margin: 10px 0; /* Adjust margin */
-    max-height: 55px; /* Adjust height */
+    margin: 10px 0;
+    max-height: 55px;
   }
 
   input {
-    padding: 14px 12px; /* Adjust padding */
+    padding: 14px 12px;
   }
 
   .input-field i {
-    margin-left: 10px; /* Adjust margin */
-    margin-right: 10px; /* Adjust margin */
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .btn-field button {
-    font-size: medium; /* Decrease font size */
-    height: 36px; /* Adjust height */
-    width: 120px; /* Adjust width */
+    font-size: medium;
+    height: 36px;
+    width: 120px;
     margin-top: 15px;
   }
 
   .Login {
-    font-size: 18px; /* Decrease font size */
+    font-size: 18px;
   }
   .input-group {
     margin-bottom: 0;
