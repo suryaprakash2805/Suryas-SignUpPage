@@ -6,17 +6,17 @@
 }
 
 body {
-  background-image: url("background.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 #form {
