@@ -120,9 +120,6 @@ a:active {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    overflow-y: hidden;
-  }
   .form-box {
     padding: 40px 20px 50px;
   }
@@ -153,5 +150,9 @@ a:active {
 
   .Login {
     font-size: 18px;
+  }
+
+  .input-group {
+    margin-bottom: 0;
   }
 }
