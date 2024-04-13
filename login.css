@@ -126,6 +126,9 @@ a:active {
     padding: 40px 20px 50px;
   }
 
+  html {
+    overflow-y: hidden;
+  }
   .form-box h1 {
     font-size: 24px;
     margin-bottom: 40px;
